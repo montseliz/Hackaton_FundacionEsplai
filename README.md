@@ -1,5 +1,7 @@
 # Login & Register Server
 
+[![CodeFactor](https://www.codefactor.io/repository/github/montseliz/hackaton_fundacionesplai/badge)](https://www.codefactor.io/repository/github/montseliz/hackaton_fundacionesplai)
+
 This project is a server API with authentication based on JSON Web Tokens (JWT). The server provides three main endpoints: register, login and users. Users must first register before they can log in and access users information stored in the database.
 
 JWT authentication is a popular and secure mechanism for protecting an application's resources. It allows users to log in and receive a JWT token, which can be used to authenticate subsequent requests. The token contains information about the user, such as user ID and roles, which allows the application to validate requests without having to query the database each time.
