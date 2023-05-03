@@ -1,5 +1,6 @@
 package io.nuwe.RetoLoginRegister_MontseLiz.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,6 +14,7 @@ public class AuthenticationResponseDTO {
     @Schema(description = "Email of the user logged in", example = "montse@gmail.com")
     private String email;
 
+    @JsonIgnore
     @Schema(description = "Password of the user logged in", example = "password123")
     private String password;
 

@@ -28,6 +28,7 @@ public class RegisterUserDTO {
     @Schema(description = "Email of the user registered", example = "montse@gmail.com")
     private String email;
 
+    @JsonIgnore
     @Schema(description = "Password of the user registered", example = "password123")
     private String password;
 
